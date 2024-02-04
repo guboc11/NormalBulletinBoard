@@ -7,7 +7,7 @@ test("NavigationBar가 존재한다.", ()=>{
   expect(navigationbar).toBeInTheDocument();
 })
 
-test("전체 보기 버튼, 글 쓰기 버튼이 존재한다.", ()=>{
+test("ViewAll 버튼, NewPost 버튼이 존재한다.", ()=>{
   render(<NavigationBar/>)
   const viewAll = screen.getByTitle("ViewAllButton")
   const newPost = screen.getByTitle("NewPostButton")
