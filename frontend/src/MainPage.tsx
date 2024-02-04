@@ -1,7 +1,9 @@
+import { Box, Typography } from "@mui/material"
+
 export default function MainPage() {
   return(
-    <div title="MainPage">
-
-    </div>
+    <Box title="MainPage">
+      <Typography>Main Page</Typography>
+    </Box>
   )
 }
